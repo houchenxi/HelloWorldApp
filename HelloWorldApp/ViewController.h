@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *m_oButtonDisplay;
+@property (weak, nonatomic) IBOutlet UILabel *m_oLabelDisplay;
 
 - (IBAction)m_aButtonPressed:(UIButton *)sender;
 

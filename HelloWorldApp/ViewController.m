@@ -15,5 +15,11 @@
 @implementation ViewController
 
 - (IBAction)m_aButtonPressed:(UIButton *)sender {
+    
+    NSString* title = [sender titleForState:(UIControlStateNormal)];
+    
+    NSString* sDisplay = [NSString stringWithFormat:@"Button %@ is pressed.", title];
+    
+    _m_oLabelDisplay.text = sDisplay;
 }
 @end
