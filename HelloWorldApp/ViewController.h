@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)m_aButtonPressed:(UIButton *)sender;
 
+@property (weak, nonatomic) IBOutlet UIButton *m_oButtonLeft;
+
+@property (weak, nonatomic) IBOutlet UIButton *m_oButtonRight;
 @end
 
