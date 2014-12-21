@@ -43,6 +43,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="m_oButtonDisplay" destination="nfZ-i9-PW0" id="WbZ-IQ-8WH"/>
                         <outlet property="m_oButtonLeft" destination="LVM-OJ-Pfw" id="NfI-Ap-toD"/>
                         <outlet property="m_oButtonRight" destination="Dv7-Ri-ZgS" id="8Vb-ha-KDR"/>
                     </connections>
