@@ -14,6 +14,7 @@
 		1C5AA4891A46A69C00767561 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5AA4881A46A69C00767561 /* Images.xcassets */; };
 		1C5AA48C1A46A69C00767561 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C5AA48A1A46A69C00767561 /* LaunchScreen.xib */; };
 		1C5AA4981A46A69C00767561 /* HelloWorldAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5AA4971A46A69C00767561 /* HelloWorldAppTests.m */; };
+		1C5AA4A21A46AC5900767561 /* Speaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5AA4A11A46AC5900767561 /* Speaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		1C5AA4911A46A69C00767561 /* HelloWorldAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5AA4961A46A69C00767561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C5AA4971A46A69C00767561 /* HelloWorldAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppTests.m; sourceTree = "<group>"; };
+		1C5AA4A11A46AC5900767561 /* Speaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		1C5AA47A1A46A69C00767561 /* HelloWorldApp */ = {
 			isa = PBXGroup;
 			children = (
+				1C5AA4A11A46AC5900767561 /* Speaker.m */,
 				1C5AA47F1A46A69C00767561 /* AppDelegate.h */,
 				1C5AA4801A46A69C00767561 /* AppDelegate.m */,
 				1C5AA4821A46A69C00767561 /* ViewController.h */,
@@ -222,6 +225,7 @@
 				1C5AA4841A46A69C00767561 /* ViewController.m in Sources */,
 				1C5AA4811A46A69C00767561 /* AppDelegate.m in Sources */,
 				1C5AA47E1A46A69C00767561 /* main.m in Sources */,
+				1C5AA4A21A46AC5900767561 /* Speaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				1C5AA49D1A46A69C00767561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C5AA49E1A46A69C00767561 /* Build configuration list for PBXNativeTarget "HelloWorldAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				1C5AA4A01A46A69C00767561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
